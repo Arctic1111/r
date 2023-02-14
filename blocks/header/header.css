@@ -1,4 +1,6 @@
 .header {
     display: flex;
     flex-direction: row;
+    max-width: 1184px;
+    max-height: 52px;
 }
