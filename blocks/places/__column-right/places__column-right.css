@@ -1,0 +1,10 @@
+.places__column-right {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.places__column-right#two-words {
+    margin-top: 106px;
+}

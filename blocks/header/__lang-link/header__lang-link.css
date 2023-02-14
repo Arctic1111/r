@@ -3,3 +3,13 @@
     width: 29px;
     height: 28px;
 }
+
+.header__lang-link:first-child {
+    text-decoration-line: underline;
+
+}
+
+.header__lang-link:last-child {
+    margin-left: 18px;
+    text-decoration: none;
+}

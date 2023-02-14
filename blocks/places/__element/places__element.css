@@ -1,0 +1,11 @@
+.places__element {
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    width: 984px;
+    height: 660px;
+}
+
+.places__element:nth-child(1) {
+    margin-top: 92px;
+}
