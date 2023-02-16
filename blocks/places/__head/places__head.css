@@ -1,0 +1,12 @@
+.places__head {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .places__head {
+        flex-direction: column;
+    }
+}

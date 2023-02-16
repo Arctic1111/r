@@ -1,0 +1,14 @@
+.places__body {
+    display: flex;
+    flex-direction: row;
+    margin-top: 48px;
+}
+
+
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .places__body {
+        flex-direction: column;
+        margin-top: 32px;
+    }
+}
