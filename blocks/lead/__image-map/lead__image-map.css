@@ -1,3 +1,34 @@
 .lead__image-map {
     margin: 128.61px 56.5px 261.8px 41.5px;
+    height: 224.59px;
+    width: 886px;
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .lead__image-map {
+        margin: 121.29px 53.28px 246.9px 39.14px;
+        height: 211.81px;
+        width: 835.58px;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .lead__image-map {
+        margin: 100.38px 44.1px 204.33px 32.39px;
+        height: 175.29px;
+        width: 691.51px;
+    }
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .lead__image-map {
+        margin: 41.83px 18.37px 85.14px 13.5px;
+        height: 73.04px;
+        width: 288.13px;
+
+    }
+
 }
