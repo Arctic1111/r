@@ -6,8 +6,7 @@
     line-height: 22px;
     text-align: center;
     color: #FFFFFF;
-    width: 360px;
-    height: 66px;
+    max-width: 360px;
     margin-top: 32px;
     margin-bottom: 0;
 }
@@ -19,7 +18,6 @@
         font-size: 14px;
         line-height: 16px;
         margin-top: 16px;
-        width: 288px;
-        height: 48px;
+        max-width: 288px;
     }
 }
