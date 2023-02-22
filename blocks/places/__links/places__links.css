@@ -2,27 +2,27 @@
     display: flex;
     flex-direction: column;
     justify-content: end;
-    width: 456px;
-    margin-left: 20px;
+    min-width: 484px;
+    margin-left: 40px;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
     .places__links {
-
-        margin-left: 16px;
+        min-width: 456px;
+        margin-left: 32px;
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .places__links {
-        width: 352px;
-        margin-left: 14px;
+        min-width: 352px;
+        margin-left: 28px;
     }
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .places__links {
-        width: 288px;
+        min-width: 288px;
         margin: 0;
     }
 }

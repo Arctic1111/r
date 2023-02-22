@@ -25,3 +25,11 @@ nav {
         flex-direction: column;
     }
 }
+
+div {
+    margin: 0;
+}
+
+a {
+    margin: 0;
+}
