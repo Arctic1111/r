@@ -21,13 +21,19 @@
 
 
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 630px) and (max-width: 1023px) {
     .footer__link {
         margin-top: 88px;
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 426px) and (max-width: 629px) {
+    .footer__link {
+        margin-top: 0;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
     .footer__link {
         font-size: 24px;
         line-height: 24px;

@@ -20,7 +20,7 @@ nav {
     display: flex;
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 629px) {
     nav {
         flex-direction: column;
     }
@@ -32,4 +32,10 @@ div {
 
 a {
     margin: 0;
+}
+
+@media screen and (min-width: 320px) and (max-width: 629px) {
+    br {
+        text-decoration: none;
+    }
 }

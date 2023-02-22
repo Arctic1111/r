@@ -7,31 +7,23 @@
     margin-right: 0;
     margin-top: 94px;
     margin-bottom: 24px;
-    margin-left: 533px;
     color: #FFFFFF;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
-    .footer__copyright {
-        margin-left: 277px;
-    }
-}
 
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 630px) and (max-width: 1023px) {
     .footer__copyright {
         margin-top: 90px;
-        margin-left: 69px;
-    }
-}
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
-    .footer__copyright {
-        line-height: 14px;
-        margin-top: 48px;
-        margin-bottom: 0;
-        margin-right: 0;
-        margin-left: 0;
     }
 
-}
+    @media screen and (min-width: 320px) and (max-width: 629px) {
+        .footer__copyright {
+            line-height: 14px;
+            margin-top: 48px;
+            margin-bottom: 0;
+            margin-right: 0;
+            margin-left: 0;
+        }
+    }
